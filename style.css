@@ -1,0 +1,86 @@
+
+body {
+	background-color: lightblue;  
+}
+
+nav ul {
+	display: flex;
+	justify-content: flex-end;
+	list-style-type: none;
+	background-color: blue;
+	border-style: solid;
+	border-color: MediumVioletRed;
+	border-width: 2px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+nav ul li {
+	margin-left: 10px;
+	margin-right: 10px;
+	color: yellow;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: green;
+}
+
+.pull-left {
+	float: left;
+}
+
+.photo1 {
+height: 300px;
+}
+
+
+.MyText {
+	background-color: yellow:
+	color: green; 
+}
+
+#photobox {
+	width:1000px;
+	height:600px;
+	border:1px solid black;
+	margin:0 auto;
+}
+
+.relPos {
+  position: relative;
+}
+
+.absPos {
+  position: absolute;
+}
+
+#ferrari {
+bottom:200px;
+left:350px;
+z-index:1;
+}
+#collage-car {
+	bottom:130px;
+	left:90px;
+	z-index: 5;
+}
+#bugatti {
+	top:90px;
+	left:100px;
+	z-index: 7;
+}
+
+#ford {
+	bottom:90px;
+	right:100px;
+	z-index: 7;
+}
+
+.titoPicture {
+height: 300px;
+}
+@keyframes changeSize {
+from {width: 100px;}
+to {width: 300px;}
+}
